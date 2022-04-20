@@ -13,7 +13,7 @@ class Periodico
     private
 
     def worker_pool
-      @worker_pool ||= Concurrent::FixedThreadPool.new(worker_pool_size)
+      @worker_pool ||= Concurrent::FixedThreadPool.new(pool_size)
     end
 
     def sync?
