@@ -2,6 +2,11 @@
 
 # Periodico
 
+[![Gem Version](https://badge.fury.io/rb/periodico.svg)](https://badge.fury.io/rb/periodico)
+[![CI](https://github.com/first-try-software/periodico/actions/workflows/main.yml/badge.svg)](https://github.com/first-try-software/periodico/actions/workflows/main.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b4a999863f92a8ce72a0/maintainability)](https://codeclimate.com/github/first-try-software/periodico/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b4a999863f92a8ce72a0/test_coverage)](https://codeclimate.com/github/first-try-software/periodico/test_coverage)
+
 Periodico is a lightweight pub/sub framework that leverages self-registration and dependency injection to communicate events to subscribers.
 
 ## Installation
