@@ -3,7 +3,7 @@ class Periodico
     attr_reader :pool_size
 
     def initialize(pool_size:)
-      @pool_size = pool_size
+      @pool_size = pool_size.to_i
     end
 
     def execute(&block)

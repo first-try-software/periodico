@@ -29,4 +29,10 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "manufacturable", "~> 2.1"
   spec.add_dependency "concurrent-ruby", "~> 1.1"
+
+  spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec_junit_formatter", "~> 0.4"
+  spec.add_development_dependency "simplecov", "~> 0.17.1"
 end
